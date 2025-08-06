@@ -1,0 +1,6 @@
+
+> student-evaluation-backend@1.0.0 start
+> node src/index.js
+
+服务器运行在端口 3001
+数据库连接成功

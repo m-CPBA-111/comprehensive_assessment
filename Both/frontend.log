@@ -1,0 +1,11 @@
+
+> student-evaluation-frontend@0.0.0 dev
+> vite
+
+Re-optimizing dependencies because lockfile has changed
+
+  VITE v5.4.19  ready in 410 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.0.137:3000/
+  ➜  press h + enter to show help
