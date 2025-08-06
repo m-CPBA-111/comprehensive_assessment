@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>乡村农场大亨 - Rural Farm Tycoon</title>
+  </head>
+  <body>
+    <div id="app">
+      <header class="game-header">
+        <h1>🌾 乡村农场大亨 🚜</h1>
+        <div class="game-info">
+          <span id="current-year">2024年</span>
+          <span id="current-money">💰 ¥100,000</span>
+          <span id="game-speed">⏱️ 正常速度</span>
+        </div>
+      </header>
+      
+      <main class="game-container">
+        <div class="left-panel">
+          <div class="farm-view">
+            <canvas id="farm-canvas" width="800" height="600"></canvas>
+          </div>
+          <div class="controls">
+            <button id="pause-btn">暂停</button>
+            <button id="speed-1x" class="active">1x</button>
+            <button id="speed-2x">2x</button>
+            <button id="speed-4x">4x</button>
+          </div>
+        </div>
+        
+        <div class="right-panel">
+          <div class="tabs">
+            <button class="tab-btn active" data-tab="planting">种植管理</button>
+            <button class="tab-btn" data-tab="market">市场分析</button>
+            <button class="tab-btn" data-tab="facilities">设施管理</button>
+            <button class="tab-btn" data-tab="reports">财务报告</button>
+          </div>
+          
+          <div class="tab-content">
+            <div id="planting-tab" class="tab-panel active">
+              <h3>作物种植计划</h3>
+              <div id="crop-selection"></div>
+              <div id="plot-info"></div>
+            </div>
+            
+            <div id="market-tab" class="tab-panel">
+              <h3>市场数据分析</h3>
+              <div id="price-chart"></div>
+              <div id="market-forecast"></div>
+            </div>
+            
+            <div id="facilities-tab" class="tab-panel">
+              <h3>设施状态</h3>
+              <div id="greenhouse-status"></div>
+              <div id="facility-upgrades"></div>
+            </div>
+            
+            <div id="reports-tab" class="tab-panel">
+              <h3>年度财务报告</h3>
+              <div id="annual-report"></div>
+              <div id="profit-analysis"></div>
+            </div>
+          </div>
+        </div>
+      </main>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
