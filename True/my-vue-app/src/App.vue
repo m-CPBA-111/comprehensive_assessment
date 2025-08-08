@@ -21,6 +21,7 @@ function del(index) {
   list.value.splice(index, 1)
 }
 </script>
+
 <template>
   <div class="todo-app">
     <div class="title">Todo App</div>
