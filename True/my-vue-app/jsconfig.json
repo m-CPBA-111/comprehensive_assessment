@@ -1,0 +1,9 @@
+{
+  "exclude": ["node_modules"],
+  "compilerOptions": {
+    "baseUrl": "."
+  },
+  "vueCompilerOptions": {
+    "globalTypesPath": "./node_modules/.vue/global.d.ts"
+  }
+}
